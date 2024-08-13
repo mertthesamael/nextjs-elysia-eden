@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background-image: linear-gradient(
+    175deg,
+    hsl(240deg 100% 50%) 0%,
+    hsl(238deg 99% 62%) 0%,
+    hsl(237deg 98% 66%) 0%,
+    hsl(237deg 96% 70%) 1%,
+    hsl(235deg 95% 73%) 2%,
+    hsl(234deg 93% 75%) 3%,
+    hsl(233deg 90% 78%) 5%,
+    hsl(231deg 88% 80%) 7%,
+    hsl(229deg 84% 82%) 10%,
+    hsl(227deg 80% 84%) 15%,
+    hsl(223deg 75% 85%) 21%,
+    hsl(218deg 70% 87%) 30%,
+    hsl(212deg 62% 89%) 45%,
+    hsl(200deg 53% 90%) 98%
+  );
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

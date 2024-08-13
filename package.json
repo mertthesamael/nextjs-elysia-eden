@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.5"
+    "@elysiajs/eden": "^1.1.2",
+    "elysia": "^1.1.6",
+    "next": "^15.0.0-rc.0",
+    "react": "^19.0.0-rc-68dbd84b-20240812",
+    "react-dom": "^19.0.0-rc-68dbd84b-20240812"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -21,6 +23,6 @@
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.5"
+    "eslint-config-next": "^15.0.0-rc.0"
   }
 }
